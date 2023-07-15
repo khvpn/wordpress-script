@@ -149,7 +149,7 @@ rotateCursor 10
 cat > /etc/apache2/sites-available/wordpress.conf << 'EOL'
 <VirtualHost *:80>
 
-ServerAdmin root@gplth.com
+ServerAdmin root@gplth
 
 DocumentRoot /var/www/html/
 ServerName gplth.com
@@ -209,7 +209,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/privat
 cat > /etc/apache2/sites-available/wordpress.conf << 'EOL'
 <VirtualHost *:443>
 
-ServerAdmin root@gplth.com
+ServerAdmin root@gplth
 
 DocumentRoot /var/www/html/
 ServerName gplth.com
